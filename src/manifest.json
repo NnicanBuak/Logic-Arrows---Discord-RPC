@@ -17,13 +17,10 @@
     },
     "default_title": "Discord Rich Presence"
   },
-  "background": {
-    "service_worker": "discordRPC_SW.js"
-  },
   "content_scripts": [
     {
       "matches": ["https://logic-arrows.io/*"],
-      "js": ["discordRPC_SW.js", "discordRPC_widget.js"]
+      "js": ["logic-arrows-discord-rpc.js", "logic-arrows-discord-rpc_widget.js"]
     }
   ],
   "author": "Nnican",
