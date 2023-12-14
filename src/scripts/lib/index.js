@@ -1,7 +1,8 @@
-importScripts('/lib/discord-rpc.min.js');
+'use strict'
 const clientId = '1184804120650055700'
 
-const rpc = new DiscordRPC.Client({ transport: 'ipc' });
+import { Client } from '/lib/discord-rpc.min.js';
+const rpc = new Client({ transport: 'ipc' });
 
 rpc.on('ready', () => {
 	console.log('Discord Rich Presence connected!')

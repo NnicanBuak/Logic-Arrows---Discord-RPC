@@ -20,7 +20,7 @@
   "content_scripts": [
     {
       "matches": ["https://logic-arrows.io/*"],
-      "js": ["logic-arrows-discord-rpc.js", "logic-arrows-discord-rpc_widget.js"]
+      "js": ["scripts/index.js", "scripts/widget.js"]
     }
   ],
   "author": "Nnican",
