@@ -26,7 +26,6 @@
       "js": ["discordRPC_SW.js", "discordRPC_widget.js"]
     }
   ],
-  "web_accessible_resources": ["icons/*"],
   "author": "Nnican",
   "homepage_url": "https://logic-arrows.io"
 }
