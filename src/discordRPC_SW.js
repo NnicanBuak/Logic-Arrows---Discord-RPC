@@ -1,4 +1,4 @@
-importScripts('https://cdn.jsdelivr.net/npm/discord-rpc')
+importScripts('/lib/discord-rpc.min.js');
 const clientId = '1184804120650055700'
 
 const rpc = new DiscordRPC.Client({ transport: 'ipc' });
